@@ -1,0 +1,41 @@
+
+.headercontentsection {
+  width: 960px;
+  margin: auto;
+
+}
+
+
+.maincontentsection {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background: darkgrey;
+  border-top: 1px solid darkgrey;
+
+}
+
+
+#nameheader {
+  float: left;
+  padding: 25px;
+  background: #4aaaa5;
+  color: white;
+  width: 120px;
+
+}
+
+.links {
+  float: right;
+  padding: 10px;
+}
+
+.clearfix {
+  clear:both;
+}
+.maincontent {
+  width: 960px;
+  margin: 0 auto;
+  background: #fff;
+  border-style: solid;
+  border-color:#ddd;
+}
