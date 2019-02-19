@@ -1,4 +1,13 @@
 
+body {
+  color: #777;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
 .headercontentsection {
   width: 960px;
   margin: auto;
@@ -9,24 +18,42 @@
 .maincontentsection {
   padding-top: 20px;
   padding-bottom: 50px;
-  background: darkgrey;
-  border-top: 1px solid darkgrey;
+  background-image: url("../images/dust_scratches.png");
+  border-top: 1px solid #ccc;
 
 }
 
 
 #nameheader {
   float: left;
-  padding: 25px;
+  padding: 0px 40px 0px 40px;
   background: #4aaaa5;
   color: white;
-  width: 120px;
 
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #777;
+  text-decoration: none;
+}
+
+#portfoliolink {
+  border-right: 1px solid #777;
+  border-left: 1px solid #777;
+  padding: 0px 10px 0px 10px;
+}
+
+#contactlink {
+  padding: 0px 0px 0px 10px;
+}
+
+#indexlink {
+  padding: 0px 10px 0px 0px;
 }
 
 .links {
   float: right;
-  padding: 10px;
+  margin-top: 2%;
 }
 
 .clearfix {
@@ -38,4 +65,13 @@
   background: #fff;
   border-style: solid;
   border-color:#ddd;
+}
+
+.footercontent {
+  background: #666;
+  color: white;
+  text-align: center;
+  border-top: 5px solid #4aaaa5;
+  padding: 40px 0 5px 0;
+  font-size: 12px;
 }
