@@ -4,20 +4,22 @@ body {
   font-family: Arial, Helvetica, sans-serif
 }
 
+
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif
 }
-
 
 
 p {
   line-height: 2;
 }
 
+
 .headercontentsection {
   width: 960px;
   margin: 0 auto;
 }
+
 
 #nameheader {
   float: left;
@@ -26,33 +28,40 @@ p {
   color: white;
 }
 
+
 #portfoliolink {
   border-right: 1px solid #777;
   border-left: 1px solid #777;
-  padding: 0px 10px 0px 10px;
+  padding: 0px 15px 0px 15px;
 }
+
 
 #contactlink {
-  padding: 0px 0px 0px 10px;
+  padding: 0px 0px 0px 15px;
 }
+
 
 #indexlink {
-  padding: 0px 10px 0px 0px;
+  padding: 0px 15px 0px 0px;
 }
 
-.links {
+.nav li {
   float: right;
+  display: inline-block;
   margin-top: 2%;
 }
+
 
 a:link, a:visited, a:hover, a:active {
   color: #777;
   text-decoration: none;
 }
 
+
 .clearfix {
   clear:both;
 }
+
 
 .maincontentsection {
   padding-top: 20px;
@@ -61,20 +70,37 @@ a:link, a:visited, a:hover, a:active {
   border-top: 2px solid #ccc;
 }
 
+
 .maincontent {
   width: 960px;
   margin: 0 auto;
   background: #fff;
   border-style: solid;
   border-color:#ddd;
-  padding: 20px;
+  padding: 25px;
+  /* to prevent padding affecting width/height */
+  -moz-box-sizing: border-box;
+  -webkit-bo-sizing: border-box;
+  box-sizing: border-box;
 }
+
 
 .subheader {
   color: #4aaaa5;
   border-bottom: 2px solid #ccc;
   padding: 0 0 20px 0;
 }
+
+
+.footercontent {
+  background: #666;
+  color: white;
+  text-align: center;
+  border-top: 5px solid #4aaaa5;
+  padding: 40px 0 5px 0;
+  font-size: 12px;
+}
+
 
 /* index.html specific styles */
 #cat_thumbnail {
@@ -102,11 +128,32 @@ a:link, a:visited, a:hover, a:active {
   margin-right: 30px;
 }
 
-.footercontent {
-  background: #666;
-  color: white;
-  text-align: center;
-  border-top: 5px solid #4aaaa5;
-  padding: 40px 0 5px 0;
-  font-size: 12px;
+/* contact.html specific styles */
+input[type=text] {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-bo-sizing: border-box;
+  box-sizing: border-box;
+}
+
+textarea {
+  width:100%;
+  margin-top: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-bo-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+ padding: 8px 25px;
+ background-color: #4aaaa5;
+ color: white;
+ margin-top: 10px;
+ border: none;
+}
+
+input[type=submit]:hover {
+  background-color: #44807d;
 }
